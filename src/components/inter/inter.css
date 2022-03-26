@@ -1,0 +1,23 @@
+.inter__wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.inter__card {
+    min-height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--primary-background-color);
+    color: var(--light-color);
+    clip-path: polygon(0 0, 100% 0, 100% 84%, 50% 100%, 0 84%, 0 0);
+    line-height: 3rem;
+    padding: 2rem;
+    letter-spacing: .4rem;
+}
+
+.inter__card > div > ul > li {
+    border-top: 1px solid #fff;
+}
+
