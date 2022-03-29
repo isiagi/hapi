@@ -24,4 +24,10 @@
   top: 300px;
   width: 100%;
   display: flex;
+  z-index: 100;
+}
+
+.each-fade .image-caption div h2 {
+  /* font-size: 3rem; */
+  color: blue;
 }

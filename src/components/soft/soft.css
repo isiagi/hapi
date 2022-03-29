@@ -1,0 +1,12 @@
+.soft__container {
+    min-height: 100vh;
+}
+
+.soft__banner {
+    background-image: url('../../assets/images/sld.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    font-size: var(--font-size-md);
+}
