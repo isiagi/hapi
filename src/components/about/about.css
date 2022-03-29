@@ -1,0 +1,32 @@
+.abou__container {
+    min-height: 100vh;
+}
+
+.about__banner {
+    background-image: url('../../assets/images/2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    font-size: var(--font-size-lg);
+    flex-direction: column;
+}
+
+.about__text {
+    line-height: 3rem; 
+    margin-block: 3rem;
+}
+
+.about__section1 {
+    gap: 3rem;
+    line-height: 3rem;
+    flex-wrap: wrap;
+}
+
+.about__section1 img {
+    max-width: 350px;
+}
+
+.about__section1 p {
+    max-width: 500px;
+}

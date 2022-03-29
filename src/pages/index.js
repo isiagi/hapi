@@ -7,6 +7,7 @@ import Footer from '../components/footer/index';
 import Wire from '../components/wire/Wire';
 import Soft from '../components/soft/Soft';
 import HomeContact from '../components/contact/cont'
+import About from '../components/about/About';
 
 const index = () => {
   return (
@@ -18,6 +19,7 @@ const index = () => {
           <Route path="/wire" element={<Wire />} />
           <Route path="/soft" element={<Soft />} />
           <Route path="/contact" element={<HomeContact />} />
+          <Route path="/about" element={<About />} />
         </Routes>
         <Footer />
       </Router>

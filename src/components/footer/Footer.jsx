@@ -2,6 +2,7 @@ import React from 'react';
 import { BsFacebook } from 'react-icons/bs';
 import { AiFillTwitterCircle } from 'react-icons/ai';
 import { BsInstagram } from 'react-icons/bs';
+import { Link } from 'react-router-dom';
 
 import './footer.css';
 
@@ -10,46 +11,62 @@ const Footer = () => {
     <div className="footer__container container">
       <div className="footer__contain">
         <div className="footer__wrapper">
-          <div>Logo</div>
+          <div><h3>HappiTech</h3></div>
           <div className="footer__info">
-            GateData Are A IT Solutions & Technology Services Provider
-            Institutions. Suitable For IT Solutions, IT Technology, IT Business,
+            HappiTech is a IT Solutions & Technology Services Provider
+            Company. Suitable For IT Solutions, IT Technology, IT Business,
             Consulting, Software, Digital Solution And Any Related Services
             Company Field.
           </div>
           <div>
-            <BsFacebook style={{fontSize: '2.5rem'}}/>
-            <BsInstagram style={{fontSize: '2.5rem', marginLeft: '1rem'}}/>
-            <AiFillTwitterCircle style={{fontSize: '2.5rem', marginLeft: '1rem'}}/>
+            <BsFacebook style={{ fontSize: '2.5rem' }} />
+            <BsInstagram style={{ fontSize: '2.5rem', marginLeft: '1rem' }} />
+            <AiFillTwitterCircle
+              style={{ fontSize: '2.5rem', marginLeft: '1rem' }}
+            />
           </div>
         </div>
         <div>
-          <div>Quick Link</div>
+          <div><h3>Quick Link</h3></div>
           <div>
             <ul>
-              <li>Home</li>
-              <li>About Us</li>
-              <li>Contacts</li>
+              <li>
+                <Link to="/">Home</Link>
+              </li>
+              <li>
+                <Link to="/about">About Us</Link>
+              </li>
+              <li>
+                <Link to="/contact">Contact</Link>
+              </li>
             </ul>
           </div>
         </div>
         <div>
-          <div>IT Services</div>
+          <div><h3>Services</h3></div>
           <div>
             <ul>
-              <li>Home</li>
-              <li>About Us</li>
-              <li>Contacts</li>
+              <li>
+                <Link to="/wire">Wireless Internet</Link>
+              </li>
+              <li>
+                <Link to="/soft">Software Development</Link>
+              </li>
+              <li>
+                <Link to="/contact">IT Consultancy</Link>
+              </li>
+              <li>
+                <Link to="/">Social and digital media marketing</Link>
+              </li>
             </ul>
           </div>
         </div>
         <div>
-          <div>Quick Link</div>
+          <div><h3>Resources</h3></div>
           <div>
             <ul>
-              <li>Home</li>
-              <li>About Us</li>
-              <li>Contacts</li>
+              <li>Careers</li>
+              <li>Support</li>
             </ul>
           </div>
         </div>
