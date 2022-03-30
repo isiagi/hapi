@@ -38,7 +38,7 @@
   opacity: 0;
   pointer-events: none;
   z-index: 100;
-  background-color: grey;
+  background-color: whitesmoke;
   padding: 2rem;
   line-height: 2.4rem;
 }
