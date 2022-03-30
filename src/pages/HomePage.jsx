@@ -5,6 +5,7 @@ import Nic from '../components/nic/Nic'
 import Offer from '../components/offer/Offer'
 import Why from '../components/why/Why'
 import Contact from '../components/homeContact/Home'
+import Out from '../components/out/Out'
 
 const HomePage = () => {
   return (
@@ -14,6 +15,7 @@ const HomePage = () => {
       <Why />
       <Nic />
       <Inter />
+      <Out />
       <Contact />
     </div>
   )
