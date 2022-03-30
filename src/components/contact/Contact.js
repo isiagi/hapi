@@ -7,6 +7,8 @@ import './contact.css';
 
 const Contact = () => {
   return (
+    <div style={{backgroundColor: 'whitesmoke'}}>
+
     <div className="contact__wrapper container">
       <div className="contact__first">
         <h2>Our Contact</h2>
@@ -27,7 +29,7 @@ const Contact = () => {
                 <textarea placeholder="Message Here" className='contact__text' rows="6"/>
               </div>
               <div className="contact__button">
-              <button style={{color: 'red'}}>Submit</button>
+              <button style={{color: '#361500'}}>Submit</button>
               </div>
             </form>
           </div>
@@ -59,6 +61,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 };

@@ -9,10 +9,10 @@ const About = () => {
     <div className="about__container container">
       <div className="about__banner place__items__center">
         <h2>About us</h2>
-        <p>
+        {/* <p>
           We help organisations connect with their target audience through
           user-focused designs, purposeful content and sustainable technology.
-        </p>
+        </p> */}
       </div>
       <div className="about__text">
         <p>
@@ -34,7 +34,7 @@ const About = () => {
       </div>
       <div className="about__section">
         <div>
-        <h2 style={{textAlign: 'center', margin: '4rem 0'}}>MISSION</h2>
+        <h2 style={{textAlign: 'center', margin: '4rem 0', color: '#603601'}}>MISSION</h2>
           <div className="about__section1 place__items__center">
             <img src={mission} alt="mission" />
             <p>
@@ -45,7 +45,7 @@ const About = () => {
           </div>
         </div>
         <div>
-        <h2 style={{textAlign: 'center', margin: '4rem 0'}}>VISION</h2>
+        <h2 style={{textAlign: 'center', margin: '4rem 0', color: '#603601'}}>VISION</h2>
           <div className="about__section1 place__items__center">
             <p>
               Delievering results-oriented brand marketing programs and public

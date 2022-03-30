@@ -8,15 +8,20 @@
 }
 
 .card {
-  background: whitesmoke;
+  background: #CC9544;
   display: flex;
   flex-direction: column;
   height: 25rem;
   align-items: center;
   justify-content: center;
-  padding: 4rem;
+  padding: 3rem;
   width: 25rem;
   text-align: center;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 15px;
+  line-height: 2.5rem;
+  font-size: 1.6rem;
 }
 
 .offer__wrapper {

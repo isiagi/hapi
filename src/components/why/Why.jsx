@@ -19,7 +19,7 @@ const Why = () => {
           </li>
         </ul>
       </div>
-      <div className="why__wrapper">
+      <div className="why__wrapper y">
         <h2>Why We Exist</h2>
         <ul>
           <li><TiTick />

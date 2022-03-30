@@ -1,5 +1,6 @@
-.abou__container {
+.about__container {
     min-height: 100vh;
+    background-color: whitesmoke;
 }
 
 .about__banner {
@@ -8,13 +9,19 @@
     background-size: cover;
     height: 400px;
     width: 100%;
-    font-size: var(--font-size-lg);
+    font-size: var(--font-size-md);
     flex-direction: column;
+    color: #603601;
+}
+
+.about__banner > h2 {
+    text-decoration: underline;
 }
 
 .about__text {
     line-height: 3rem; 
     margin-block: 3rem;
+    color: #1C0A00;
 }
 
 .about__section1 {
@@ -29,4 +36,9 @@
 
 .about__section1 p {
     max-width: 500px;
+    color: #1C0A00;
+}
+
+.about__section {
+    padding-bottom: 3rem;
 }

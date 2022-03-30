@@ -11,7 +11,7 @@ const Wire = () => {
         <h1>WIRELESS INTERNET</h1>
       </div>
       <div className="wire__wrapper">
-        <p>
+        <p style={{color: '#1C0A00'}}>
           We provide wireless internet to businesses and Individuals to enable
           them achieve their best business and normal social operations
         </p>

@@ -1,5 +1,6 @@
 .soft__container {
     min-height: 100vh;
+    background: whitesmoke;
 }
 
 .soft__banner {
@@ -9,4 +10,5 @@
     height: 400px;
     width: 100%;
     font-size: var(--font-size-md);
+    color: #361500;
 }

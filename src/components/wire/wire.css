@@ -10,6 +10,10 @@
     width: 100%;
 }
 
+.wire__banner > h1 {
+    color: #603601; 
+}
+
 .wire__love {
     display: flex;
     align-items: center;
@@ -17,6 +21,7 @@
     line-height: 4rem;
     flex-wrap: wrap;
     gap: 1.5rem;
+    color: #1C0A00;
 }
 
 .wire__text {

@@ -1,6 +1,6 @@
 .contact__wrapper {
     min-height: 100vh;
-    background: var(--primary-background-color);
+    background: whitesmoke;
     color: var(--light-color);
     display: flex;
     flex-direction: column;
@@ -12,6 +12,7 @@
 .contact__first > h2 {
     font-size: var(--font-size-lg);
     padding-block: 3rem;
+    color: #603601;
 }
 
 .contact__details {
@@ -28,7 +29,7 @@
     gap: 2rem;
     padding: 2rem;
     border-radius: 15px;
-    border-left: 5px solid red;
+    border-left: 5px solid #361500;
     margin-bottom: 2rem;
 }
 
@@ -66,6 +67,9 @@
 textarea {
     width: 100%;
     resize: none;
+    background: #361500;
+    border: none;
+    outline: none;
 }
 
 /* .contact__text {

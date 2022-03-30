@@ -1,5 +1,8 @@
 import React from 'react';
-import ReactCardFlip from 'react-card-flip';
+import ReactCardFlip from 'react-card-flip'; 
+import {MdSettingsSuggest} from 'react-icons/md'
+import {FaLink} from 'react-icons/fa'
+import {AiOutlineStock} from 'react-icons/ai'
 
 import './offer.css';
 
@@ -26,13 +29,14 @@ const Offer = () => {
     setIsFlipp(!isFlipp);
   };
   return (
-    <div style={{ minHeight: '60vh'}} className="container place__items__center offer__wrapper">
+    <div style={{ minHeight: '60vh', backgroundColor: 'whitesmoke'}} className="container place__items__center offer__wrapper">
       <div>
-        <h2>What we offer</h2>
+        <h2 style={{color: '#603601', fontSize: 'var(--font-size-lg)', paddingBlock: '3rem'}}>What we offer</h2>
         <div className="offer__container">
           <div>
             <ReactCardFlip isFlipped={isFlippe} flipDirection="vertical">
               <div className="card">
+            <MdSettingsSuggest style={{fontSize: '4.5rem'}}/>
                 Internet Service
                 <button onClick={handleClic}>Click to flip</button>
               </div>
@@ -45,6 +49,7 @@ const Offer = () => {
           <div>
             <ReactCardFlip isFlipped={isFlipped} flipDirection="vertical">
               <div className="card">
+              <FaLink style={{fontSize: '4.5rem'}}/>
                 Software Service
                 <button onClick={handleClick}>Click to flip</button>
               </div>
@@ -62,6 +67,7 @@ const Offer = () => {
           <div>
             <ReactCardFlip isFlipped={isFlipp} flipDirection="vertical">
               <div className="card">
+              <AiOutlineStock style={{fontSize: '4.5rem'}}/>
                 Social And Digital Media Marketing
                 <button onClick={handleCli}>Other Service</button>
               </div>
