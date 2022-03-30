@@ -1,7 +1,7 @@
 import React from 'react';
 import { MdTableRows } from 'react-icons/md';
 import { GiCancel } from 'react-icons/gi';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 import './nav.css';
 
@@ -14,7 +14,7 @@ const Nav = () => {
       <div className={`${'header'} ${open ? 'active' : ''}`}>
         <ul>
           <li>
-            <Link to="/">HOME</Link>
+            <NavLink to="/" className={({isActive}) => (isActive ? 'activ' : '')}>HOME</NavLink>
           </li>
           <li>
             <div className="nav__drop">
@@ -23,37 +23,37 @@ const Nav = () => {
                 <div>
                   {/* <div class="dropdown-heading">IT SERVICES</div> */}
                   <div class="dropdown-links">
-                    <Link to="/wire" class="link">
+                    <NavLink to="/wire" class="link" className={({isActive}) => (isActive ? 'activ' : '')}>
                       Wireless Internet
-                    </Link>
+                    </NavLink>
                     {/* <a href="/good" class="link">
                       Website / Web Hosting
                     </a> */}
-                    <Link to="/soft" class="link">
+                    <NavLink to="/soft" class="link">
                       Software Development
-                    </Link>
-                    <Link to="/" class="link">
+                    </NavLink>
+                    <NavLink to="/" class="link">
                       IT Constancy
-                    </Link>
-                    <Link to="/" class="link">
+                    </NavLink>
+                    <NavLink to="/" class="link">
                       Social and digital media marketing
-                    </Link>
-                    <Link to="/" class="link">
+                    </NavLink>
+                    <NavLink to="/" class="link">
                       Computer system sales and maintenance
-                    </Link>
+                    </NavLink>
                   </div>
                 </div>
               </div>
             </div>
           </li>
           <li>
-            <Link to="/about">ABOUT US</Link>
+            <NavLink to="/about" className={({isActive}) => (isActive ? 'activ' : '')}>ABOUT US</NavLink>
           </li>
           <li>
-            <Link to="/port">PORTFOLIO</Link>
+            <NavLink to="/port" className={({isActive}) => (isActive ? 'activ' : '')}>PORTFOLIO</NavLink>
           </li>
           <li>
-            <Link to="/contact">CONTACT</Link>
+            <NavLink to="/contact" className={({isActive}) => (isActive ? 'activ' : '')}>CONTACT</NavLink>
           </li>
         </ul>
       </div>

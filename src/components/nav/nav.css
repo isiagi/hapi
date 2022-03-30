@@ -17,6 +17,10 @@
   flex-wrap: wrap;
 }
 
+.activ {
+  border-bottom: 3px solid #603601;
+}
+
 .header ul li {
   width: 15rem;
   color: #603601;
