@@ -8,6 +8,7 @@ import Wire from '../components/wire/Wire';
 import Soft from '../components/soft/Soft';
 import HomeContact from '../components/contact/Cont'
 import About from '../components/about/About';
+import Port from '../components/port/Port';
 
 const index = () => {
   return (
@@ -20,6 +21,7 @@ const index = () => {
           <Route path="/soft" element={<Soft />} />
           <Route path="/contact" element={<HomeContact />} />
           <Route path="/about" element={<About />} />
+          <Route path="/port" element={<Port />} />
         </Routes>
         <Footer />
       </Router>
