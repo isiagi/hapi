@@ -5,6 +5,11 @@ import vision from '../../assets/images/vision.jpg';
 import './about.css';
 
 const About = () => {
+  
+  React.useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
   return (
     <div className="about__container container">
       <div className="about__banner place__items__center">

@@ -8,6 +8,11 @@ import Contact from '../components/homeContact/Home'
 import Out from '../components/out/Out'
 
 const HomePage = () => {
+  
+  React.useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
   return (
     <div>
       <Hero1 />
