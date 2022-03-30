@@ -19,14 +19,14 @@ const Footer = () => {
             Company Field.
           </div>
           <div>
-            <BsFacebook style={{ fontSize: '2.5rem' }} />
-            <BsInstagram style={{ fontSize: '2.5rem', marginLeft: '1rem' }} />
+            <BsFacebook style={{ fontSize: '2.5rem',color: 'whitesmoke' }} />
+            <BsInstagram style={{ fontSize: '2.5rem', marginLeft: '1rem', color: 'whitesmoke' }} />
             <AiFillTwitterCircle
-              style={{ fontSize: '2.5rem', marginLeft: '1rem' }}
+              style={{ fontSize: '2.5rem', marginLeft: '1rem', color: 'whitesmoke' }}
             />
           </div>
         </div>
-        <div>
+        <div className="footer__links">
           <div><h3>Quick Link</h3></div>
           <div>
             <ul>
@@ -42,7 +42,7 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        <div>
+        <div className="footer__links">
           <div><h3>Services</h3></div>
           <div>
             <ul>
@@ -61,7 +61,7 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        <div>
+        <div className="footer__links">
           <div><h3>Resources</h3></div>
           <div>
             <ul>
