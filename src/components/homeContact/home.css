@@ -11,8 +11,14 @@
 }
 
 .home__button {
-    background-color: grey;
+    background-color: #CC9544;
     padding: 3rem;
     font-size: var(--font-size-md);
     border-radius: 15px;
+    color: #361500;
+}
+
+.home__button:hover {
+    background-color: #361500;
+    color: #CC9544;
 }

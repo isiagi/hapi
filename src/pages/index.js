@@ -6,7 +6,7 @@ import Nav from '../components/nav/Nav';
 import Footer from '../components/footer/index';
 import Wire from '../components/wire/Wire';
 import Soft from '../components/soft/Soft';
-import HomeContact from '../components/contact/cont'
+import HomeContact from '../components/contact/Cont'
 import About from '../components/about/About';
 
 const index = () => {

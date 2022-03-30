@@ -1,7 +1,7 @@
 import React from 'react';
 import { MdTableRows } from 'react-icons/md';
 import { GiCancel } from 'react-icons/gi';
-import { Link, NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 import './nav.css';
 
