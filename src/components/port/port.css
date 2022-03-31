@@ -1,15 +1,27 @@
 .port__container {
     min-height: 100vh;
-    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),url('../../assets/images/cos.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
+    background: whitesmoke;
+}
+
+.port__wrapper {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    font-weight: 900;
-    line-height: 4rem;
-    text-align: center;
-    font-size: 1.9rem;
+    gap: 0.5em;
+    flex-wrap: wrap;
+    margin-bottom: 3rem;
+}
+
+ .port__link {
+   background-color: #361500;
+   margin-top: 9rem;
+   color: #fff;
+   padding: 1rem;
+   border-radius: 15px;
+}
+
+.port__link:hover {
+    background-color: #CC9544;
+}
+
+.port__link.active {
+    background-color: #CC9544;
 }

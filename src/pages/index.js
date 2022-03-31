@@ -6,9 +6,11 @@ import Nav from '../components/nav/Nav';
 import Footer from '../components/footer/index';
 import Wire from '../components/wire/Wire';
 import Soft from '../components/soft/Soft';
-import HomeContact from '../components/contact/Cont'
+import HomeContact from '../components/contact/Cont';
 import About from '../components/about/About';
 import Port from '../components/port/Port';
+import All from './All';
+import NotFound from './notFound/NotFound';
 
 const index = () => {
   return (
@@ -21,7 +23,11 @@ const index = () => {
           <Route path="/soft" element={<Soft />} />
           <Route path="/contact" element={<HomeContact />} />
           <Route path="/about" element={<About />} />
-          <Route path="/port" element={<Port />} />
+          <Route path="/port" element={<Port />}>
+            <Route path="all" element={<All />} />
+            <Route path="edu" element={<All />} />
+          </Route>
+          <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />
       </Router>
