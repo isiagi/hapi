@@ -12,11 +12,13 @@ import './hero.css';
 import React from 'react';
 
 const Hero1 = () => {
-  const [active, setActive] = React.useState(0);
+  // const [active, setActive] = React.useState(0);
+  const [fad, setFad] = React.useState(0);
 
-  React.useEffect(() => {
-    AOS.init({ duration: 2000 });
-  }, [active]);
+    setInterval(() => {
+      AOS.init({ duration: 1000 });
+    }, 2000)
+    // alert(fad)
 
   const fadeImages = [
     {
@@ -38,7 +40,7 @@ const Hero1 = () => {
 
   return (
     <div className="slide-container">
-      <Fade >
+      <Fade onChange={(e) => setFad(e)} duration="4000">
         {fadeImages.map((fadeImage, index) => {
 
           return (

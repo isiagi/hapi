@@ -1,0 +1,27 @@
+.why__container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    align-items: center;
+    background-color: #CC9544;
+    color: #603601;
+    font-size: var(--font-size-sm)
+}
+
+.why__wrapper {
+    max-width: 600px;
+    /* width: 100px; */
+    line-height: 3rem;
+    /* color: #7395ae; */
+}
+
+.why__wrapper h2{
+    padding-block: 3rem;
+    color: #fff;
+    text-decoration: underline;
+}
+
+.why__wrapper li {
+    margin-block: 2rem;
+}

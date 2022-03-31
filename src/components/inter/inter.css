@@ -1,6 +1,18 @@
+.inter__container {
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    line-height: 3rem;
+    background-color: whitesmoke;
+}
+
 .inter__wrapper {
     display: flex;
     align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .inter__card {
@@ -9,7 +21,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: var(--primary-background-color);
+    background: #603601;
     color: var(--light-color);
     clip-path: polygon(0 0, 100% 0, 100% 84%, 50% 100%, 0 84%, 0 0);
     line-height: 3rem;
@@ -21,3 +33,8 @@
     border-top: 1px solid #fff;
 }
 
+.inter__card1 > h2 {
+    margin-block: 2rem;
+    padding: 1rem;
+    color: #603601;
+}

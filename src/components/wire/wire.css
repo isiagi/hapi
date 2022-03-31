@@ -1,0 +1,40 @@
+.wire__container {
+    min-height: 100vh;
+}
+
+.wire__banner {
+    background-image: url('../../assets/images/wire.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+}
+
+.wire__banner > h1 {
+    color: #603601; 
+}
+
+.wire__love {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 4rem;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    color: #1C0A00;
+}
+
+.wire__text {
+    max-width: 600px;
+}
+
+.wire__wrapper > p {
+    padding-block: 4rem;
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.wire__img > img {
+    border-radius: 10px;
+}

@@ -1,17 +1,13 @@
 
 import './App.css';
-import Contact from './components/contact/Contact';
-import Hero1 from './components/Hero1';
-import Inter from './components/inter/Inter';
-import Nav from './components/nav/Nav';
+
+import Index from './pages'
 
 function App() {
+  
   return (
     <div className="App">
-        <Nav />
-        <Hero1 />
-        <Contact />
-        <Inter />
+        <Index />
     </div>
   );
 }

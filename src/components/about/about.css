@@ -1,0 +1,44 @@
+.about__container {
+    min-height: 100vh;
+    background-color: whitesmoke;
+}
+
+.about__banner {
+    background-image: url('../../assets/images/2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    font-size: var(--font-size-md);
+    flex-direction: column;
+    color: #603601;
+}
+
+.about__banner > h2 {
+    text-decoration: underline;
+}
+
+.about__text {
+    line-height: 3rem; 
+    margin-block: 3rem;
+    color: #1C0A00;
+}
+
+.about__section1 {
+    gap: 3rem;
+    line-height: 3rem;
+    flex-wrap: wrap;
+}
+
+.about__section1 img {
+    max-width: 350px;
+}
+
+.about__section1 p {
+    max-width: 500px;
+    color: #1C0A00;
+}
+
+.about__section {
+    padding-bottom: 3rem;
+}
